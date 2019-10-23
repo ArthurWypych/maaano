@@ -7,7 +7,7 @@ public class traitchooser : MonoBehaviour
 {
 
     public string chartrait;
-    public Text teste;
+    public Text chartraitoppo;
 	//public chrtnum = 0;
 	
     // Start is called before the first frame update
@@ -16,7 +16,7 @@ public class traitchooser : MonoBehaviour
 		
 		//chrtnum = Random.Range(1, 3);
 		
-        switch(Random.Range(1, 3))
+        switch(Random.Range(1, 4))
         {
             case 1:
             chartrait = "gordo";
@@ -29,12 +29,13 @@ public class traitchooser : MonoBehaviour
             break;
         }
 
+        chartraitoppo.text = chartrait;
 
     }
 
     // Update is called once per frame
     void Update()
     {
-        teste.text = "Teste";
+        //teste.text = "Teste";
     }
 }
