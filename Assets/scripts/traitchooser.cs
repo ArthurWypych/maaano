@@ -3,20 +3,20 @@ using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.UI;
 
-public class NewBehaviourScript : MonoBehaviour
+public class traitchooser : MonoBehaviour
 {
 
     public string chartrait;
     public Text teste;
-
+	//public chrtnum = 0;
+	
     // Start is called before the first frame update
     void Start()
     {
-        Random rnd = new Random();
-
-        int chrtnum = rnd.Next(1,3);
-
-        switch(chrtnum)
+		
+		//chrtnum = Random.Range(1, 3);
+		
+        switch(Random.Range(1, 3))
         {
             case 1:
             chartrait = "gordo";
