@@ -124,7 +124,7 @@ GameObject:
   - component: {fileID: 51916121}
   - component: {fileID: 51916120}
   m_Layer: 5
-  m_Name: testocarta1
+  m_Name: textocarta1
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -146,8 +146,8 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: -400, y: -215}
-  m_SizeDelta: {x: 62.71, y: 43.75}
+  m_AnchoredPosition: {x: -207, y: -109.35}
+  m_SizeDelta: {x: 41.8, y: 57.3}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &51916120
 MonoBehaviour:
@@ -167,8 +167,6 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-    m_TypeName: UnityEngine.UI.MaskableGraphic+CullStateChangedEvent, UnityEngine.UI,
-      Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
   m_FontData:
     m_Font: {fileID: 10102, guid: 0000000000000000e000000000000000, type: 0}
     m_FontSize: 15
@@ -201,6 +199,8 @@ GameObject:
   m_Component:
   - component: {fileID: 82408359}
   - component: {fileID: 82408360}
+  - component: {fileID: 82408362}
+  - component: {fileID: 82408361}
   m_Layer: 0
   m_Name: carta1
   m_TagString: Untagged
@@ -270,6 +270,44 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
+--- !u!114 &82408361
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 82408358}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 613bff0c86c180340b6674bf4fc33b28, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+--- !u!61 &82408362
+BoxCollider2D:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 82408358}
+  m_Enabled: 1
+  m_Density: 1
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_UsedByEffector: 0
+  m_UsedByComposite: 0
+  m_Offset: {x: 0, y: 0}
+  m_SpriteTilingProperty:
+    border: {x: 0, y: 0, z: 0, w: 0}
+    pivot: {x: 0.5, y: 0.5}
+    oldSize: {x: 1, y: 1}
+    newSize: {x: 1, y: 1}
+    adaptiveTilingThreshold: 0.5
+    drawMode: 0
+    adaptiveTiling: 0
+  m_AutoTiling: 0
+  serializedVersion: 2
+  m_Size: {x: 1, y: 1}
+  m_EdgeRadius: 0
 --- !u!1 &178269517
 GameObject:
   m_ObjectHideFlags: 0
@@ -409,7 +447,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 189510231}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: -82.24879, y: 26.636616, z: 5.02227}
+  m_LocalPosition: {x: 0, y: 0, z: 5.02227}
   m_LocalScale: {x: 30, y: 30, z: 1}
   m_Children: []
   m_Father: {fileID: 0}
@@ -492,6 +530,7 @@ Transform:
   m_LocalScale: {x: 30, y: 30, z: 1}
   m_Children:
   - {fileID: 1078769126}
+  - {fileID: 1562111033}
   m_Father: {fileID: 0}
   m_RootOrder: 2
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
@@ -529,8 +568,8 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 270, y: -42}
-  m_SizeDelta: {x: 314.92, y: 99.69}
+  m_AnchoredPosition: {x: 141.6, y: -20}
+  m_SizeDelta: {x: 114.8, y: 92.7}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &254001674
 MonoBehaviour:
@@ -550,11 +589,9 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-    m_TypeName: UnityEngine.UI.MaskableGraphic+CullStateChangedEvent, UnityEngine.UI,
-      Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
   m_FontData:
     m_Font: {fileID: 10102, guid: 0000000000000000e000000000000000, type: 0}
-    m_FontSize: 70
+    m_FontSize: 40
     m_FontStyle: 0
     m_BestFit: 0
     m_MinSize: 0
@@ -668,7 +705,7 @@ GameObject:
   - component: {fileID: 885562519}
   - component: {fileID: 885562518}
   m_Layer: 5
-  m_Name: testocarta2
+  m_Name: textocarta2
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -690,8 +727,8 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: -310, y: -215}
-  m_SizeDelta: {x: 62.71, y: 43.75}
+  m_AnchoredPosition: {x: -158.99997, y: -109.35}
+  m_SizeDelta: {x: 41.8, y: 57.3}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &885562518
 MonoBehaviour:
@@ -711,8 +748,6 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-    m_TypeName: UnityEngine.UI.MaskableGraphic+CullStateChangedEvent, UnityEngine.UI,
-      Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
   m_FontData:
     m_Font: {fileID: 10102, guid: 0000000000000000e000000000000000, type: 0}
     m_FontSize: 15
@@ -874,7 +909,7 @@ GameObject:
   - component: {fileID: 1139643209}
   - component: {fileID: 1139643208}
   m_Layer: 5
-  m_Name: testocarta4
+  m_Name: textocarta4
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -896,8 +931,8 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: -130, y: -215}
-  m_SizeDelta: {x: 62.71, y: 43.75}
+  m_AnchoredPosition: {x: -69.200005, y: -109.35}
+  m_SizeDelta: {x: 41.8, y: 57.3}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1139643208
 MonoBehaviour:
@@ -917,8 +952,6 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-    m_TypeName: UnityEngine.UI.MaskableGraphic+CullStateChangedEvent, UnityEngine.UI,
-      Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
   m_FontData:
     m_Font: {fileID: 10102, guid: 0000000000000000e000000000000000, type: 0}
     m_FontSize: 15
@@ -1320,16 +1353,16 @@ Transform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1562111032}
-  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: -14.49222, y: -55.88516, z: 437.4133}
-  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: 4.5169263, y: -1.0295054, z: 436.4133}
+  m_LocalScale: {x: 0.033333335, y: 0.033333335, z: 1}
   m_Children:
   - {fileID: 82408359}
   - {fileID: 1153324605}
   - {fileID: 1563189732}
   - {fileID: 178269518}
-  m_Father: {fileID: 0}
-  m_RootOrder: 5
+  m_Father: {fileID: 250821584}
+  m_RootOrder: 1
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!114 &1562111034
 MonoBehaviour:
@@ -1343,11 +1376,14 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 9baccdd265c98e54f93065409e7de882, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  textocarta1: {fileID: 0}
-  textocarta2: {fileID: 0}
-  textocarta3: {fileID: 0}
-  textocarta4: {fileID: 0}
-  poder: 0
+  textocarta1: {fileID: 51916120}
+  textocarta2: {fileID: 885562518}
+  textocarta3: {fileID: 1652753266}
+  textocarta4: {fileID: 1139643208}
+  poder1: 0
+  poder2: 0
+  poder3: 0
+  poder4: 0
 --- !u!1 &1563189731
 GameObject:
   m_ObjectHideFlags: 0
@@ -1518,7 +1554,7 @@ GameObject:
   - component: {fileID: 1652753267}
   - component: {fileID: 1652753266}
   m_Layer: 5
-  m_Name: testocarta3
+  m_Name: textocarta3
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -1540,8 +1576,8 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: -222, y: -215}
-  m_SizeDelta: {x: 62.71, y: 43.75}
+  m_AnchoredPosition: {x: -117.19996, y: -109.35}
+  m_SizeDelta: {x: 41.8, y: 57.3}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1652753266
 MonoBehaviour:
@@ -1561,8 +1597,6 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-    m_TypeName: UnityEngine.UI.MaskableGraphic+CullStateChangedEvent, UnityEngine.UI,
-      Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
   m_FontData:
     m_Font: {fileID: 10102, guid: 0000000000000000e000000000000000, type: 0}
     m_FontSize: 15

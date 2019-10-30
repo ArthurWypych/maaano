@@ -10,7 +10,10 @@ public class atreladordecartas : MonoBehaviour
     public Text textocarta2;
     public Text textocarta3;
     public Text textocarta4;
-    public double poder = 0;
+    public double poder1 = 0;
+	public double poder2 = 0;
+	public double poder3 = 0;
+	public double poder4 = 0;
 
     // Start is called before the first frame update
     void Start()
@@ -20,76 +23,76 @@ public class atreladordecartas : MonoBehaviour
         {
             case 1:
             textocarta1.text = "seu gordo";
-            poder = 0.20;
+            poder1 = 0.2;
             break;
             case 2:
             textocarta1.text = "seu otario,n sabe 2 + 2";
-            poder = 0.3;
+            poder1 = 0.3;
             break;
             case 3:
             textocarta1.text = "ninguem te quer";
-            poder = 0.3;
+            poder1 = 0.3;
             break;
             case 4:
             textocarta1.text = "what can i say except the n word";
-            poder = 0.7;
+            poder1 = 0.7;
             break;
         }
         switch(Random.Range(1,5))
         {
             case 1:
             textocarta2.text = "seu gordo";
-            poder = 0.20;
+            poder2 = 0.2;
             break;
             case 2:
             textocarta2.text = "seu otario,n sabe 2 + 2";
-            poder = 0.3;
+            poder2 = 0.3;
             break;
             case 3:
             textocarta2.text = "ninguem te quer";
-            poder = 0.3;
+            poder2 = 0.3;
             break;
             case 4:
             textocarta2.text = "what can i say except the n word";
-            poder = 0.7;
+            poder2 = 0.7;
             break;
         }
         switch(Random.Range(1,5))
         {
             case 1:
             textocarta3.text = "seu gordo";
-            poder = 0.20;
+            poder3 = 0.2;
             break;
             case 2:
             textocarta3.text = "seu otario,n sabe 2 + 2";
-            poder = 0.3;
+            poder3 = 0.3;
             break;
             case 3:
             textocarta3.text = "ninguem te quer";
-            poder = 0.3;
+            poder3 = 0.3;
             break;
             case 4:
             textocarta3.text = "what can i say except the n word";
-            poder = 0.7;
+            poder3 = 0.7;
             break;
         }
         switch(Random.Range(1,5))
         {
             case 1:
             textocarta4.text = "seu gordo";
-            poder = 0.20;
+            poder4 = 0.2;
             break;
             case 2:
             textocarta4.text = "seu otario,n sabe 2 + 2";
-            poder = 0.3;
+            poder4 = 0.3;
             break;
             case 3:
             textocarta4.text = "ninguem te quer";
-            poder = 0.3;
+            poder4 = 0.3;
             break;
             case 4:
             textocarta4.text = "what can i say except the n word";
-            poder = 0.7;
+            poder4 = 0.7;
             break;
         }
     }
