@@ -285,7 +285,10 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   barraoppo: {fileID: 1460412120}
+  textocarta1: {fileID: 51916120}
   aa: 0.1
+  traco: 
+  podoro: 0
 --- !u!61 &82408362
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -1408,6 +1411,10 @@ MonoBehaviour:
   poder2: 0
   poder3: 0
   poder4: 0
+  textaogg1: 
+  textaogg2: 
+  textaogg3: 
+  textaogg4: 
 --- !u!1 &1563189731
 GameObject:
   m_ObjectHideFlags: 0

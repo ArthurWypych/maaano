@@ -14,6 +14,10 @@ public class atreladordecartas : MonoBehaviour
 	public float poder2 = 0;
 	public float poder3 = 0;
 	public float poder4 = 0;
+    public string textaogg1;
+    public string textaogg2;
+    public string textaogg3;
+    public string textaogg4;
 
     // Start is called before the first frame update
     void Start()
@@ -23,15 +27,15 @@ public class atreladordecartas : MonoBehaviour
         {
             case 1:
             textocarta1.text = "seu gordo";
-            poder1 = 0.2f;
+            poder1 = 0.1f;
             break;
             case 2:
             textocarta1.text = "seu otario,n sabe 2 + 2";
-            poder1 = 0.3f;
+            poder1 = 0.1f;
             break;
             case 3:
             textocarta1.text = "ninguem te quer";
-            poder1 = 0.3f;
+            poder1 = 0.1f;
             break;
             case 4:
             textocarta1.text = "vc vive numa sociedade";
