@@ -27,15 +27,15 @@ public class atreladordecartas : MonoBehaviour
         {
             case 1:
             textocarta1.text = "seu gordo";
-            poder1 = 0.1f;
+            poder1 = 0.2f;
             break;
             case 2:
             textocarta1.text = "seu otario,n sabe 2 + 2";
-            poder1 = 0.1f;
+            poder1 = 0.2f;
             break;
             case 3:
             textocarta1.text = "ninguem te quer";
-            poder1 = 0.1f;
+            poder1 = 0.3f;
             break;
             case 4:
             textocarta1.text = "vc vive numa sociedade";
